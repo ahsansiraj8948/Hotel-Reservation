@@ -2,7 +2,6 @@ package Quiz_Console_App;
 
 public class Question{
     private int id;
-
     private String question;
     private String op1;
     private String op2;
