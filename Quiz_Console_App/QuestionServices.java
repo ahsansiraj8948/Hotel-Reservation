@@ -12,7 +12,7 @@ public class QuestionServices {
     }
 
     public void play(){
-        int i=1;
+        int i=0;
         for(Question q:question)
         {
             System.out.println("question number"+q.getId());
@@ -26,10 +26,10 @@ public class QuestionServices {
             i++;
         }
 
-        for(String s:option)
-        {
-            System.out.println(s);
-        }
+//        for(String s:option)
+//        {
+//            System.out.println(s);
+//        }
     }
     public void calculate() {
         int score = 0;
@@ -44,8 +44,7 @@ public class QuestionServices {
         System.out.println("Your score is : " + score);
     }
 
-
-    public void print() {
+    public void demo() {
         System.out.println("commited");
     }
 }

@@ -5,6 +5,6 @@ public class Main {
         QuestionServices quiz = new QuestionServices();
         quiz.play();
         quiz.calculate();
-        quiz.print();
+        quiz.demo();
     }
 }
